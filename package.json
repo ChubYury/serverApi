@@ -1,0 +1,31 @@
+{
+  "name": "vue-server",
+  "version": "1.0.0",
+  "description": "My backend for vue",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serv": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chub Yury",
+  "license": "ISC",
+  "engines": {
+    "node": "20.11.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "binance-api-node": "^0.12.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "lowdb": "^7.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
