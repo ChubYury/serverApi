@@ -8,10 +8,7 @@ function scalePrice(originalPrice, originalMin, originalMax, newMin = 10, newMax
    *  - newPrice — масштабированная цена, которая будет находиться в диапазоне [$1,000, $10,000]. 
    */
 
-  // console.log('this min: ', originalMin);
-  
-
   return ((originalPrice - originalMin) * (newMax - newMin)) / (originalMax - originalMin) + newMin;
 }
 
-module.exports = { scalePrice }
+module.exports = { scalePrice };
